@@ -85,6 +85,7 @@
   .footer-card {
     margin-right: 0;
     margin-left: 2rem;
+    width: 50%;
   }
 }
 
@@ -94,13 +95,50 @@
     height: 89rem; /*so the image has some space so that the buttons don't cover it */
   }
 
+  .hero .container {
+    background: url(/images/hero-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 35rem 40rem;
+    background-position: bottom;
+    height: 70rem;
+  }
+
+  .hero-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
   /* video */
   .video-heading {
     font-size: 2rem;
   }
 
+  /* testimonial */
   .testimonial-heading {
     text-align: center;
     margin-left: 5rem;
+    font-size: 1.8rem;
+  }
+
+  .pricing-heading,
+  .faq-heading {
+    font-size: 1.8rem;
+  }
+
+  /* faq */
+  .faq-menu {
+    margin-top: 1rem;
+  }
+  .faq-menu li {
+    margin: 0.1rem;
+  }
+
+  /* footer */
+  .footer-grid .footer-card {
+    width: 90%;
   }
 }
