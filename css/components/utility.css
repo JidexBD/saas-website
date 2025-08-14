@@ -1,0 +1,52 @@
+/* utilities  */
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-sm {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.3rem 2rem;
+  background-color: var(--cl7);
+  color: var(--fc3);
+  font-weight: var(--fw2);
+  border: none;
+  text-decoration: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: var(--cl2);
+  color: var(--cl1);
+}
+
+.btn-dark {
+  background-color: var(--cl3);
+  color: var(--cl1);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  padding: 2rem;
+}

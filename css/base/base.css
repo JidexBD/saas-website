@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 68.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-color: var(--cl1);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--fc3);
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}

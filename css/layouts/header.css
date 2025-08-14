@@ -1,0 +1,39 @@
+.hero {
+  margin-bottom: 5rem;
+}
+
+.hero .container {
+  background-image: url(/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 60rem;
+}
+
+.hero .hero-content {
+  width: 90%; /* to make the text on my hero content wrap*/
+}
+
+.hero-heading {
+  font-size: var(--fs5);
+  font-weight: var(--fw3);
+  line-height: 1.2;
+  margin: 4rem 0 2rem;
+  text-align: start;
+}
+.hero-text {
+  font-size: var(--fs2);
+  font-weight: var(--fw1);
+  line-height: 1.4;
+  margin: 3rem 0 2rem;
+  width: 60%; /*to make the text on my hero text wrap more accurately */
+  margin-bottom: 2rem;
+}
+
+/* small {
+  font-size: var(--fs1);
+  font-weight: var(fw1);
+  line-height: 1.4;
+  margin: 3rem 0 2rem;
+  tect-align: center;
+} */

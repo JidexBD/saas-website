@@ -1,0 +1,95 @@
+/* media queries */
+@media (max-width: 96rem) {
+  .hero-heading {
+    font-size: 5.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 67rem) {
+  /* navbar mobile stuff */
+  .navbar .main-menu {
+    display: none;
+  }
+
+  .navbar .hamburger-button {
+    display: block;
+  }
+
+  /* heading */
+  .hero .container {
+    background: url(/images/hero-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 35rem 40rem;
+    background-position: bottom;
+    height: 77rem;
+  }
+
+  .hero .hero-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero .hero-btns .btn {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  /* video */
+  .video-heading {
+    font-size: 3.6rem;
+  }
+
+  /* testimonials */
+  .testimonial-heading {
+    font-size: 2.8rem;
+    max-width: 100%;
+    text-align: center;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* pricing */
+  .pricing-header {
+    font-size: 2.8rem;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* faq */
+  .faq-heading {
+    font-size: var(--fs6);
+  }
+
+  /* footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .footer-grid > div {
+    text-align: center;
+  }
+
+  .footer-card {
+    margin-right: 0;
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 50rem) {
+    /* heading */
+    .hero .container {
+      height: 89rem; /*so the image has some space so that the buttons don't cover it */
+    }
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  /* colors */
+  --cl1: #fff;
+  --cl2: #4891ff;
+  --cl3: #131316;
+  --cl4: #fafafa;
+  --cl5: #bebdc6;
+  --cl6: #bcc2c3;
+  --cl7: #f4f4f6;
+
+  /* font-color */
+  --fc1: #fff;
+  --fc2: #131316;
+  --fc3: #333;
+
+  /* font size  */
+  --fs1: 1rem;
+  --fs2: 2rem;
+  --fs3: 1.6rem;
+  --fs4: 4.8rem;
+  --fs5: 6.4rem;
+  --fs6: 3.8rem;
+
+    /* font weight */
+  --fw1: 400;
+  --fw2: 600;
+  --fw3: 800:
+}
