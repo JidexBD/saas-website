@@ -51,6 +51,7 @@
     font-size: 2.8rem;
     max-width: 100%;
     text-align: center;
+    margin-left: 5rem;
   }
   .testimonials-grid {
     grid-template-columns: 1fr;
@@ -85,11 +86,21 @@
     margin-right: 0;
     margin-left: 2rem;
   }
+}
 
-  @media (max-width: 50rem) {
-    /* heading */
-    .hero .container {
-      height: 89rem; /*so the image has some space so that the buttons don't cover it */
-    }
+@media (max-width: 50rem) {
+  /* heading */
+  .hero .container {
+    height: 89rem; /*so the image has some space so that the buttons don't cover it */
+  }
+
+  /* video */
+  .video-heading {
+    font-size: 2rem;
+  }
+
+  .testimonial-heading {
+    text-align: center;
+    margin-left: 5rem;
   }
 }
